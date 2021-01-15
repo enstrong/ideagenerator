@@ -20,7 +20,7 @@ function getRandomElement(arr) {
       smoothly(phrase, 'textContent', randomElement.text)
       smoothly(image, 'src', randomElement.image)
 
-      if (randomElement.text.length > 38) {
+      if (randomElement.text.length > 35) {
          advice.style.fontSize = '33px';
        } else {
          advice.style.fontSize = '42px';
