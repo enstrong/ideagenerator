@@ -1,0 +1,65 @@
+* {
+   margin: 0;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: rgb(27, 27, 27);
+}
+
+main p {
+   font-size: 16px;
+   color: #fff;
+   margin-top: 40px;
+   margin-bottom: 50px;
+}
+
+.container {
+   max-width: 600px;
+   margin: 0px auto;
+}
+
+.header {
+   height: 105px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.button {
+   background-color: rgb(27, 27, 27);
+   color: #fff;
+   width: 130px;
+   height: 40px;
+   box-sizing: border-box;
+   border: 1px solid white;
+   border-radius: 4px;
+   text-align: center;
+   font-size: 14px;
+   cursor: pointer;
+   transition: opacity 0.2s;
+}
+
+.button:hover {
+   opacity: .5;
+}
+
+.main {
+   text-align: center;
+}
+
+.advice {
+   font-size: 40px;
+   color: #fff;
+   font-weight: 700;
+}
+
+.image {
+   width: 80%;
+}
+
+.ahtung {
+   display: block;
+   margin-top: 40px;
+   color: #fff;
+}
