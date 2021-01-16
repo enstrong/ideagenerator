@@ -25,4 +25,10 @@ function getRandomElement(arr) {
        } else {
          advice.style.fontSize = '42px';
        }
+
+       if (randomElement.text.length = 36) {
+         image.style.width = '60%';
+       } else {
+         image.style.width = '80%';
+       }
    });
