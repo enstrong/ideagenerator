@@ -1,6 +1,6 @@
 let phrases = [
    { text: 'черкать карандашом экран',                         image: 'https://code.s3.yandex.net/web-code/procrastinate/1.gif'},
-   { text: 'выйти с конфы со словами "инет плохой"',           image: 'img/tutle.png'},
+   { text: 'вылететь с конфы со словами "инет или тимс?"',     image: 'img/tutle.png'},
    { text: 'нет, НЕ сидя на уроке, дайте ссылку на конфу пж',  image: 'https://code.s3.yandex.net/web-code/procrastinate/1.gif'},
    { text: 'стать патриотом школы',                            image: 'img/73фтл.jpg'},
    { text: 'расставлять книги по полке',                       image: 'https://code.s3.yandex.net/web-code/procrastinate/5.png'},
