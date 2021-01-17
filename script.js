@@ -35,7 +35,7 @@ function getRandomElement(arr) {
       if (randIndex = 4) {
          image.style.width = '60%'
       } else {
-         image.style.width = '80%'
+         image.style.width = '100%'
       }
 
       //if (randomElement.text = 'стать патриотом школы') {image.style.width = '60%';} else {image.style.width = '80%';}
