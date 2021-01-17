@@ -8,7 +8,7 @@ let phrases = [
    { text: 'смотреть сериал',                                  image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png'},
    { text: 'посмотреть что пишут в WhatsApp и Telegram',       image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png'},
    { text: 'рисовать в тетради',                               image: 'https://code.s3.yandex.net/web-code/procrastinate/1.gif'},
-   { text: 'стать партнёром Казахтелеком и вылететь с урока',  image: 'img/kazakhtelecom.png'},
+   { text: 'стать партнёром Казахтелеком и вылететь с урока',  image: 'img/kazakhtelecom.png'}
 ];
 
 function getRandomElement(arr) {
@@ -29,12 +29,14 @@ function getRandomElement(arr) {
       if (randomElement.text.length > 35) {
          advice.style.fontSize = '33px';
        } else {
-         advice.style.fontSize = '42px';
+         advice.style.fontSize = '40px';
        }
 
-      if (randomElement.text.length = 36) {
-         image.style.width = '60%';
-       } else {
-         image.style.width = '80%';
-       }
+      if (randIndex = 4) {
+         image.style.width = '60%'
+      } else {
+         image.style.width = '80%'
+      }
+
+      //if (randomElement.text = 'стать патриотом школы') {image.style.width = '60%';} else {image.style.width = '80%';}
    });
